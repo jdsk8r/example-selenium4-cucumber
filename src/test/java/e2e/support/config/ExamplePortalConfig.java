@@ -24,9 +24,7 @@ public class ExamplePortalConfig implements Config {
 
     @Override
     public BrowserConfig getBrowserConfig() {
-        return BrowserConfigImpl.with()
-                .browserType(BrowserType.CHROME)
-                .build();
+        return new BrowserConfigImpl(BrowserType.CHROME);
     }
 
     @Override
