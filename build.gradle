@@ -14,7 +14,7 @@ ext {
     e2eFrameworkVersion = '1.2.6'
     seleniumVersion = '4.48.0'
     cucumberVersion = '7.34.8'
-    lombokVersion = '1.18.42'
+    lombokVersion = '1.18.48'
     slf4jVersion = '2.0.19'
 }
 dependencies {
